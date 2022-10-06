@@ -1,9 +1,10 @@
 import React from "react";
+import Categories from '../components/Categories'
 
 function About() {
   return (
     <div>
-      <h1>About</h1>
+      <Categories />
     </div>
   );
 }

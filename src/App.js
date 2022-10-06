@@ -7,7 +7,7 @@ import Foods from "./views/Foods";
 import FilteredFoods from "./views/FilteredFoods";
 
 // components
-import Header from "./components/Header";
+import NavBar from "./components/NavBar";
 
 
 // styles
@@ -18,7 +18,7 @@ function App() {
 		<BrowserRouter>
 			{/* Header Area */}
 			<div>
-				<Header />
+				<NavBar />
 			</div>
 			{/* Route Area */}
 			<Routes>
